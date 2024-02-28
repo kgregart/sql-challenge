@@ -1,0 +1,41 @@
+#SQL Challenge
+
+Departments
+-
+Dept_No VARCHAR(5) PK
+Dept_Name VARCHAR(25)
+
+Dept_Emp
+-
+Emp_No INT FK >- Employees.Emp_No
+Dept_No VARCHAR(5) FK >- Departments.Dept_No
+
+Dept_Manager
+-
+Dept_No VARCHAR(5) FK >- Departments.Dept_No
+Emp_No INT FK >- Employees.Emp_No
+
+Employees
+-
+Emp_No INT PK
+Emp_Title_ID VARCHAR(10) FK >- Titles.Title_ID
+Birth_Date DATE
+First_Name VARCHAR(25)
+Last_Name VARCHAR(25)
+Sex VARCHAR(1)
+Hire_Date DATE
+
+Salaries
+rel Dept_Manager
+rel Dept_Emp
+-
+Emp_No INT FK >- Employees.Emp_No
+Salary INT
+
+Titles
+-
+Title_ID VARCHAR(10) PK
+Title VARCHAR(25)
+
+
+#
