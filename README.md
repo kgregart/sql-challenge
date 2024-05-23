@@ -1,38 +1,47 @@
 # sql-challenge
 
-Instructions
-This Challenge is divided into three parts: data modeling, data engineering, and data analysis.
+# Background
 
-Data Modeling
-Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tables. To create the sketch, feel free to use a tool like QuickDBDLinks to an external site..
+As a new data engineer at Pewlett Hackard (a fictional company) the first major task is to do a research project about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.
 
-Data Engineering
-Use the provided information to create a table schema for each of the six CSV files. Be sure to do the following:
+Design the tables to hold the data from the CSV files, import the CSV files into a SQL database, and then answer questions about the data. perform data modeling, 
 
-Remember to specify the data types, primary keys, foreign keys, and other constraints.
+# Instructions
 
-For the primary keys, verify that the column is unique. Otherwise, create a composite keyLinks to an external site., which takes two primary keys to uniquely identify a row.
+Preform data modeling, data engineering, and data analysis.
 
-Be sure to create the tables in the correct order to handle the foreign keys.
+## Data Modeling
 
-Import each CSV file into its corresponding SQL table.
+Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tables. 
 
-HINT
-To avoid errors, import the data in the same order as the corresponding tables got created. And, remember to account for the headers when doing the imports.
+![ERP](
 
-Data Analysis
-List the employee number, last name, first name, sex, and salary of each employee.
+## Data Engineering
 
-List the first name, last name, and hire date for the employees who were hired in 1986.
+1. Use the provided information to create a table schema for each of the six CSV files. Be sure to do the following:
 
-List the manager of each department along with their department number, department name, employee number, last name, and first name.
+  - Remember to specify the data types, primary keys, foreign keys, and other constraints.
 
-List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
+  - For the primary keys, verify that the column is unique. Otherwise, create a composite keyLinks to an external site, which takes two primary keys to uniquely identify a row.
 
-List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+  - Be sure to create the tables in the correct order to handle the foreign keys.
 
-List each employee in the Sales department, including their employee number, last name, and first name.
+2. Import each CSV file into its corresponding SQL table.
 
-List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
+## Data Analysis
 
-List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+1. List the employee number, last name, first name, sex, and salary of each employee.
+
+2. List the first name, last name, and hire date for the employees who were hired in 1986.
+
+3. List the manager of each department along with their department number, department name, employee number, last name, and first name.
+
+4. List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
+
+5. List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+
+6. List each employee in the Sales department, including their employee number, last name, and first name.
+
+7. List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
+
+8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
