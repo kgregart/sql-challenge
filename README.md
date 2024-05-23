@@ -14,7 +14,7 @@ Preform data modeling, data engineering, and data analysis.
 
 Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tables. 
 
-![ERP](
+![ERP](https://github.com/kgregart/sql-challenge/blob/main/EmployeeSQL/ERD/QuickDBD-SQL%20Challenge.png)
 
 ## Data Engineering
 
