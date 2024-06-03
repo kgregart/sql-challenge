@@ -8,7 +8,7 @@ Design the tables to hold the data from the CSV files, import the CSV files into
 
 # Instructions
 
-Preform data modeling, data engineering, and data analysis.
+Perform data modeling, data engineering, and data analysis.
 
 ## Data Modeling
 
